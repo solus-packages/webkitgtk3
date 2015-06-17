@@ -34,6 +34,8 @@
         <Patches>
             <!-- Gratefully lifted from Arch repo //-->
             <Patch level="1">webkitgtk-2.4.8-gmutexlocker.patch</Patch>
+            <!--https://bugs.webkit.org/show_bug.cgi?id=140241 //-->
+            <Patch level="1">0001-Fix-build-failure-when-WK2-is-disabled.patch</Patch>
         </Patches>
     </Source>
 
