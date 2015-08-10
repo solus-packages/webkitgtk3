@@ -75,6 +75,14 @@
     </Package>
 
     <History>
+        <Update release="13">
+            <Date>08-10-2015</Date>
+            <Version>2.4.8</Version>
+            <Comment>Package bump</Comment>
+            <Name>Ikey Doherty</Name>
+            <Email>ikey@solus-project.com</Email>
+        </Update>
+
         <Update release="12">
             <Date>06-17-2015</Date>
             <Version>2.4.8</Version>

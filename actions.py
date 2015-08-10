@@ -21,7 +21,6 @@ def setup():
                          --with-gnu-ld \
                          --enable-introspection \
                          --disable-geolocation \
-                         --disable-webkit2 \
                          --disable-wayland-target \
                          --enable-x11-target \
                          --disable-gtk-doc-html")
