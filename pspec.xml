@@ -47,6 +47,7 @@
             <Path fileType="data">/usr/lib/girepository-1.0</Path>
             <Path fileType="localedata">/usr/share/locale</Path>.
             <Path fileType="data">/usr/share/webkitgtk-3.0</Path>
+            <Path fileType="data">/usr/lib/webkit2gtk-3.0</Path>
         </Files>
     </Package>
 
@@ -75,6 +76,14 @@
     </Package>
 
     <History>
+        <Update release="14">
+            <Date>08-10-2015</Date>
+            <Version>2.4.8</Version>
+            <Comment>Package bump</Comment>
+            <Name>Ikey Doherty</Name>
+            <Email>ikey@solus-project.com</Email>
+        </Update>
+
         <Update release="13">
             <Date>08-10-2015</Date>
             <Version>2.4.8</Version>
