@@ -10,9 +10,8 @@
         </Packager>
         <Summary>Web rendering engine</Summary>
         <Description>The WebKitGTK+ package is the port of the portable web rendering engine WebKit to the GTK+ platform.</Description>
-        <License>GPLv2+</License>
-        <Archive sha1sum="44c6bbe52108297126830525619c1df047886a6f" type="tarxz">http://webkitgtk.org/releases/webkitgtk-2.4.8.tar.xz</Archive>
-        <SupportsClang>true</SupportsClang>
+        <License>LGPL-2.1</License>
+        <Archive sha1sum="e425ae86084ab6335dadb368c9e8f53600665d54" type="tarxz">http://webkitgtk.org/releases/webkitgtk-2.4.11.tar.xz</Archive>
         <BuildDependencies>
             <Dependency>ruby</Dependency>
             <Dependency>gperf</Dependency>
@@ -32,8 +31,7 @@
         </BuildDependencies>
 
         <Patches>
-            <Patch level="1">webkitgtk-2.4.8-gmutexlocker.patch</Patch>
-            <Patch level="1">0001-Fix-build-failure-when-WK2-is-disabled.patch</Patch>
+            <Patch level="1">gcc6.patch</Patch>
         </Patches>
     </Source>
 
@@ -76,6 +74,14 @@
     </Package>
 
     <History>
+        <Update release="17">
+            <Date>07-26-2016</Date>
+            <Version>2.4.11</Version>
+            <Comment>Update to 2.4.11</Comment>
+            <Name>Ikey Doherty</Name>
+            <Email>ikey@solus-project.com</Email>
+        </Update>
+
         <Update release="16">
             <Date>11-10-2015</Date>
             <Version>2.4.8</Version>
