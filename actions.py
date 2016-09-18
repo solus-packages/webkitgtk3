@@ -6,8 +6,8 @@ from pisi.actionsapi import shelltools, get, autotools, pisitools
 shelltools.export("HOME", get.workDIR())
 
 def build_config():
-    cflags = get.CFLAGS().replace("-ggdb3","")
-    cxxflags = get.CXXFLAGS().replace("-gddb3", "")
+    cflags = get.CFLAGS().replace("-ggdb3","") + " -fno-delete-null-pointer-checks"
+    cxxflags = get.CXXFLAGS().replace("-gddb3", "") + " -fno-delete-null-pointer-checks"
     shelltools.export("CFLAGS", cflags)
     shelltools.export("CXXFLAGS", cxxflags)
 
