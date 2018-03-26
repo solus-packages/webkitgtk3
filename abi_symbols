@@ -9015,7 +9015,6 @@ libwebkitgtk-3.0.so.0:webkit_marshal_VOID__OBJECT_OBJECT_POINTER
 libwebkitgtk-3.0.so.0:webkit_marshal_VOID__OBJECT_POINTER
 libwebkitgtk-3.0.so.0:webkit_marshal_VOID__OBJECT_POINTER_POINTER
 libwebkitgtk-3.0.so.0:webkit_marshal_VOID__OBJECT_STRING
-libwebkitgtk-3.0.so.0:webkit_marshal_VOID__STRING
 libwebkitgtk-3.0.so.0:webkit_marshal_VOID__STRING_STRING
 libwebkitgtk-3.0.so.0:webkit_micro_version
 libwebkitgtk-3.0.so.0:webkit_minor_version
