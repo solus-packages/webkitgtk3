@@ -3,20 +3,20 @@
 <PISI>
     <Source>
         <Name>webkitgtk3</Name>
-        <Homepage>http://webkitgtk.org</Homepage>
+        <Homepage>https://webkitgtk.org</Homepage>
         <Packager>
             <Name>Ikey Doherty</Name>
             <Email>ikey.doherty@gmail.com</Email>
         </Packager>
         <Summary>Web rendering engine</Summary>
         <Description>The WebKitGTK+ package is the port of the portable web rendering engine WebKit to the GTK+ platform.</Description>
-        <License>LGPL-2.1</License>
-        <Archive sha1sum="e425ae86084ab6335dadb368c9e8f53600665d54" type="tarxz">http://webkitgtk.org/releases/webkitgtk-2.4.11.tar.xz</Archive>
+        <License>LGPL-2.1-only</License>
+        <Archive sha1sum="e425ae86084ab6335dadb368c9e8f53600665d54" type="tarxz">https://webkitgtk.org/releases/webkitgtk-2.4.11.tar.xz</Archive>
         <BuildDependencies>
             <Dependency>ruby</Dependency>
             <Dependency>gperf</Dependency>
             <Dependency>libjpeg-turbo-devel</Dependency>
-            <Dependency type="pkgconfig">libpng15</Dependency>
+            <Dependency type="pkgconfig">libpng</Dependency>
             <Dependency type="pkgconfig">libwebp</Dependency>
             <Dependency type="pkgconfig">gtk+-2.0</Dependency>
             <Dependency type="pkgconfig">gtk+-3.0</Dependency>
@@ -76,6 +76,14 @@
     </Package>
 
     <History>
+        <Update release="27">
+            <Date>04-28-2018</Date>
+            <Version>2.4.11</Version>
+            <Comment>Package bump</Comment>
+            <Name>Pierre-Yves</Name>
+            <Email>pyu@riseup.net</Email>
+        </Update>
+
         <Update release="26">
             <Date>04-22-2018</Date>
             <Version>2.4.11</Version>
